@@ -24,7 +24,6 @@
     let hours = Math.floor(minutes / 60);
 
     seconds = seconds % 60;
-    minutes = seconds >= 30 ? minutes + 1 : minutes;
     minutes = minutes % 60;
 
 
